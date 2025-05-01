@@ -23,13 +23,13 @@ let notes = [
     important: true
   }
 ]
-
+/*
 const unknownEndpoint = (request, response) => {
   response.status(404).send({ error: 'unknown endpoint' })
 }
 
 app.use(unknownEndpoint)
-
+*/
 app.get('/', (request, response) =>{
   response.send('<h1>Hallo munde!</h1>')
 });
